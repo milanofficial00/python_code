@@ -17,7 +17,7 @@ def extract_number(filename):
 image_files = sorted(image_files, key=extract_number)
 
 # (Optional) Show sorted order before renaming
-print("📂 Files in ascending numeric order:")
+print(" Files in ascending numeric order:")
 for f in image_files:
     print(f)
 print("\nStarting renaming...\n")
